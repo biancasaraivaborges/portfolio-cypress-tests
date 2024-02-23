@@ -1,7 +1,7 @@
 <h1> Portfolio-Cypress </h1>
 
 ## About the Project
-This project is part of my learning about automated testing using Cypress.
+This project is part of my learning about automated testing using [Cypress](https://www.cypress.io/).
 
 
 ## Getting Started
