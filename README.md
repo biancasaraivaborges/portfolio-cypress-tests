@@ -10,7 +10,11 @@ Este projeto foi criado como parte de um curso onde estou aprendendo os conceito
 
 ### 1. Instalação do `Node.js e npm`
 
-Certifique-se de ter o Node.js instalado. Você pode baixá-lo em [nodejs.org](https://nodejs.org/).
+O Node.js, geralmente chamado de Node, é um ambiente de execução para JavaScript do lado do servidor.
+NPM (Node Package Manager) é o gerenciador de pacotes do Node.js. Ele é usado para instalar, compartilhar e gerenciar as dependências dos projetos JavaScript.
+
+Certifique-se de ter o Node.js instalado.
+Você pode baixá-lo em [nodejs.org](https://nodejs.org/).
 
 No terminal, digite `node --version` ou `node -v -`. Caso retorne um número de versão, o Node.js já está instalado.
 
