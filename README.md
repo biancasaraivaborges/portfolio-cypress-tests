@@ -1,4 +1,4 @@
-<h1> Portfolio-Cypress (Alura Course) </h1>
+<h1> Portfolio-Cypress </h1>
 
 ## About the Project
 This project is part of my learning about automated testing using Cypress.
