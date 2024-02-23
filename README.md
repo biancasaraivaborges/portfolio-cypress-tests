@@ -49,9 +49,7 @@ Na parte onde está escrito E2E (end-to-end) testing, escolheremos a opção `cy
 Feito isso, clicamos no navegador desejado, como escolhi Chrome cliquei em "Start E2E Testing in Chrome".
 
 Na tela "Create your first spec" criaremos um teste do zero ao clicar em "Create New Spec" e nomeares como XXXXX.cy.js. 
-Após clicar em "Create spec", o framework exibe a estrutura do código que será criado dentro desse projeto. Após executar, abre um painel à esquerda onde podemos conferir que o teste passou. Além disso, o Cypress explica que o teste está fazendo uma visita para a URL example.cypress.io:
-
-![image](https://github.com/biancasaraivaborges/portfolio-cypress/assets/119070958/d01d9182-fe4f-4893-be15-39449f29f5e9)
+Após clicar em "Create spec", o framework exibe a estrutura do código que será criado dentro desse projeto. Após executar, abre um painel à esquerda onde podemos conferir que o teste passou. Além disso, o Cypress explica que o teste está fazendo uma visita para a URL example.cypress.io.
 
 ### 7. Instruções do Cypress 
 Para saber mais sobre os primeiros passos de instalação e configuração, [clique aqui](https://docs.cypress.io/guides/getting-started/installing-cypress) para acessar a documentação oficial do Cypress, que descreve com mais detalhes algumas configurações avançadas por sistema operacional, bem como a utilização em contêineres e integração contínua.
