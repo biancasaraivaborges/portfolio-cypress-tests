@@ -1,10 +1,8 @@
 <h1> Portfolio-Cypress (Alura Course) </h1>
 
-This repository is part of my learning about automated testing using Cypress.
-
 ## About the Project
+This project is part of my learning about automated testing using Cypress.
 
-This project was created as part of a course where I am learning the basic and advanced concepts of test automation with Cypress.
 
 ## Getting Started
 
