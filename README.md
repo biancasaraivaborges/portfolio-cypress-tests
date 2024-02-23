@@ -8,11 +8,9 @@ This project is part of my learning about automated testing using [Cypress](http
 
 ### 1. Installation of `Node.js and npm`
 
-Node.js, commonly referred to as Node, is a runtime environment for server-side JavaScript. NPM (Node Package Manager) is the package manager for Node.js, used to install, share, and manage project dependencies in JavaScript.
-
-Make sure you have Node.js installed. You can download it from [nodejs.org](https://nodejs.org/).
-
-In the terminal, type `node --version` or `node -v`. If it returns a version number, Node.js is already installed.
+Before diving into the project, ensure that you have Node.js - commonly referred to as Node - installed on your machine. Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine, allowing you to execute JavaScript code outside of a web browser. And NPM (Node Package Manager) is the package manager for Node.js, used to install, share, and manage project dependencies in JavaScript.
+If you haven't already, you can download it from [nodejs.org](https://nodejs.org/). To verify your Node.js installation, open your terminal and type:
+`node --version` or `node -v`. If a version number is displayed, Node.js is successfully installed on your system.
 
 ### 2. Optional: `nvm-windows`
 
