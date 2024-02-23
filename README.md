@@ -1,88 +1,90 @@
-<h1> Portfolio-Cypress (Curso da Alura) </h1>
+<h1> Portfolio-Cypress (Alura Course) </h1>
 
-Este repositório faz parte do meu aprendizado pessoal sobre testes automatizados usando Cypress.
+This repository is part of my learning about automated testing using Cypress.
 
-## Sobre o Projeto
+## About the Project
 
-Este projeto foi criado como parte de um curso onde estou aprendendo os conceitos básicos e avançados de automação de testes com Cypress. 
+This project was created as part of a course where I am learning the basic and advanced concepts of test automation with Cypress.
 
-## Como Começar
+## Getting Started
 
-### 1. Instalação do `Node.js e npm`
+### 1. Installation of `Node.js and npm`
 
-O Node.js, geralmente chamado de Node, é um ambiente de execução para JavaScript do lado do servidor.
-NPM (Node Package Manager) é o gerenciador de pacotes do Node.js. Ele é usado para instalar, compartilhar e gerenciar as dependências dos projetos JavaScript.
+Node.js, commonly referred to as Node, is a runtime environment for server-side JavaScript. NPM (Node Package Manager) is the package manager for Node.js, used to install, share, and manage project dependencies in JavaScript.
 
-Certifique-se de ter o Node.js instalado.
-Você pode baixá-lo em [nodejs.org](https://nodejs.org/).
+Make sure you have Node.js installed. You can download it from [nodejs.org](https://nodejs.org/).
 
-No terminal, digite `node --version` ou `node -v -`. Caso retorne um número de versão, o Node.js já está instalado.
+In the terminal, type `node --version` or `node -v`. If it returns a version number, Node.js is already installed.
 
-### 2. Opcional: `nvm-windows`
+### 2. Optional: `nvm-windows`
 
-Se você deseja gerenciar diferentes versões do Node.js em seu sistema, pode considerar a instalação do `nvm-windows`. Este é um gerenciador de versões do Node.js para Windows, que permite alternar facilmente entre diferentes versões do Node.js. Baixe o `nvm-windows` [aqui](https://github.com/coreybutler/nvm-windows/releases/download/1.1.12/nvm-setup.exe).
+If you want to manage different versions of Node.js on your system, you can consider installing `nvm-windows`. This is a version manager for Node.js on Windows, allowing easy switching between different Node.js versions. Download `nvm-windows` [here](https://github.com/coreybutler/nvm-windows/releases/download/1.1.12/nvm-setup.exe).
 
-No CMD, digitar o comando `nvm install` junto da versão do Node que queremos instalar; no caso, a versão será a 16.13.1: `nvm install 16.13.1`
-Podemos usar o seguinte comando para ver quais versões estão sendo utilizadas e qual está instalada no computador: `nvm ls`
+In CMD, type the command `nvm install` along with the Node version you want to install; in this case, the version will be 16.13.1: `nvm install 16.13.1`. You can use the following command to see which versions are being used and which one is installed on the computer: `nvm ls`
 
-### 3. Instalação do Cypress
-Com o Node instalado e configurado, vamos instalar o Cypress. Acessando a [página oficial do Cypress](https://docs.cypress.io/guides/getting-started/installing-cypress), verificamos o seguinte comando para instalação:
+### 3. Cypress Installation
+
+With Node installed and configured, let's install Cypress. Accessing the [official Cypress page](https://docs.cypress.io/guides/getting-started/installing-cypress), we find the following command for installation:
+
 ```
 npm install cypress --save-dev
 ```
-Com a instalação concluída, posso executar o seguinte comando para ver o Cypress em execução:
+
+Once the installation is complete, you can run the following command to see Cypress in action:
 
 ```
 npx cypress open
 ```
-### 4. Instalação do Alurapic na Máquina
-O próximo passo será instalar o [AluraPic](https://github.com/alura-cursos/alurapic/archive/refs/heads/main.zip) na nossa máquina. Para isso, utilizaremos o link disponibilizado na seção "Preparando o Ambiente" (em texto):
 
-Volta para o CMD, limpa a tela e cola URL até alurapic: `cd C:\Users\Seuuser\Desktop\alurapic`, próximo passo é instalar de fato na máquia utilizando `npm install`.
-Instalação concluída, utilizamos o comando `npm start` para realmente rodar localmente o projeto.  
+### 4. Alurapic Installation on the Machine
 
-### 5. Instalação do Alurapic na Máquina
-Com a instalação concluída, ele informa que o projeto foi compilado.
+The next step is to install [AluraPic](https://github.com/alura-cursos/alurapic/archive/refs/heads/main.zip) on our machine. To do this, we'll use the link provided in the "Preparing the Environment" section.
 
-Abrir http://localhost:4200/ para abrir no navegador
-
-### 6. Crie um Projeto Cypress 
-
-Dentro do terminal, usarei o comando `npx cypress open` para iniciar o Cypress e pressionar "Enter" para executar.
-Na parte onde está escrito E2E (end-to-end) testing, escolheremos a opção `cypress\fixtures\example.json`.
-Feito isso, clicamos no navegador desejado, como escolhi Chrome cliquei em "Start E2E Testing in Chrome".
-
-Na tela "Create your first spec" criaremos um teste do zero ao clicar em "Create New Spec" e nomeares como XXXXX.cy.js. 
-Após clicar em "Create spec", o framework exibe a estrutura do código que será criado dentro desse projeto. Após executar, abre um painel à esquerda onde podemos conferir que o teste passou. Além disso, o Cypress explica que o teste está fazendo uma visita para a URL example.cypress.io.
-
-### 7. Instruções do Cypress 
-Para saber mais sobre os primeiros passos de instalação e configuração, [clique aqui](https://docs.cypress.io/guides/getting-started/installing-cypress) para acessar a documentação oficial do Cypress, que descreve com mais detalhes algumas configurações avançadas por sistema operacional, bem como a utilização em contêineres e integração contínua.
+Go back to CMD, clear the screen, and navigate to the Alurapic URL: `cd C:\Users\YourUser\Desktop\alurapic`. The next step is to install it on the machine using `npm install`.
+Once the installation is complete, use the command `npm start` to run the project locally.
 
 
-# Outras infos - Alurapic
+With the installation complete, it informs that the project has been compiled.
 
-Este projeto foi gerado com [Angular CLI](https://github.com/angular/angular-cli) versão 6.0.7.
+Open http://localhost:4200/ to view it in the browser.
 
-### Servidor de Desenvolvimento
+### 5. Create a Cypress Project
 
-Execute `ng serve` para iniciar um servidor de desenvolvimento. Navegue para `http://localhost:4200/`. O aplicativo será recarregado automaticamente se você modificar algum dos arquivos de origem.
+In the terminal, use the command `npx cypress open` to start Cypress and press "Enter" to execute.
+In the part that says E2E (end-to-end) testing, choose the option `cypress\fixtures\example.json`.
+After that, click on the desired browser, such as Chrome, and click "Start E2E Testing in Chrome."
 
-### Estrutura de Código
+On the "Create your first spec" screen, create a test from scratch by clicking "Create New Spec" and naming it XXXXX.cy.js. After clicking "Create spec," the framework displays the code structure that will be created within this project. After running, a panel opens on the left where you can check that the test passed. Additionally, Cypress explains that the test is visiting the URL example.cypress.io.
 
-Execute `ng generate component nome-do-componente` para gerar um novo componente. Você também pode usar `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### 6. Cypress Instructions
 
-### Construção
+To learn more about the initial installation and configuration steps, [click here](https://docs.cypress.io/guides/getting-started/installing-cypress) to access the official Cypress documentation, which provides more detailed information on some advanced configurations by operating system, as well as usage in containers and continuous integration.
 
-Execute `ng build` para construir o projeto. Os artefatos de construção serão armazenados no diretório `dist/`. Use a flag `--prod` para uma construção de produção.
+# Other Info - Alurapic
 
-### Executando Testes Unitários
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
 
-Execute `ng test` para executar os testes unitários via [Karma](https://karma-runner.github.io).
+### Development Server
 
-### Executando Testes End-to-End
+Run `ng serve` to start a development server. Navigate to `http://localhost:4200/`. The app will automatically reload if you modify any of the source files.
 
-Execute `ng e2e` para executar os testes end-to-end via [Protractor](http://www.protractortest.org/).
+### Code Structure
 
-### Ajuda Adicional
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Para obter mais ajuda sobre o Angular CLI use `ng help` ou consulte o [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+### Build
+
+Run `ng build` to build the project. Build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+
+### Running Unit Tests
+
+Run `ng test` to execute unit tests via [Karma](https://karma-runner.github.io).
+
+### Running End-to-End Tests
+
+Run `ng e2e` to execute end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+### Additional Help
+
+For more help on Angular CLI, use `ng help` or check the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
