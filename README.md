@@ -32,19 +32,8 @@ Once the installation is complete, you can run the following command to see Cypr
 npx cypress open
 ```
 
-### 4. Alurapic Installation on the Machine
 
-The next step is to install [AluraPic](https://github.com/alura-cursos/alurapic/archive/refs/heads/main.zip) on our machine. To do this, we'll use the link provided in the "Preparing the Environment" section.
-
-Go back to CMD, clear the screen, and navigate to the Alurapic URL: `cd C:\Users\YourUser\Desktop\alurapic`. The next step is to install it on the machine using `npm install`.
-Once the installation is complete, use the command `npm start` to run the project locally.
-
-
-With the installation complete, it informs that the project has been compiled.
-
-Open http://localhost:4200/ to view it in the browser.
-
-### 5. Create a Cypress Project
+### 4. Create a Cypress Project
 
 In the terminal, use the command `npx cypress open` to start Cypress and press "Enter" to execute.
 In the part that says E2E (end-to-end) testing, choose the option `cypress\fixtures\example.json`.
@@ -52,17 +41,10 @@ After that, click on the desired browser, such as Chrome, and click "Start E2E T
 
 On the "Create your first spec" screen, create a test from scratch by clicking "Create New Spec" and naming it XXXXX.cy.js. After clicking "Create spec," the framework displays the code structure that will be created within this project. After running, a panel opens on the left where you can check that the test passed. Additionally, Cypress explains that the test is visiting the URL example.cypress.io.
 
-### 6. Cypress Instructions
+### 5. Cypress Instructions
 
 To learn more about the initial installation and configuration steps, [click here](https://docs.cypress.io/guides/getting-started/installing-cypress) to access the official Cypress documentation, which provides more detailed information on some advanced configurations by operating system, as well as usage in containers and continuous integration.
 
-# Other Info - Alurapic
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.7.
-
-### Development Server
-
-Run `ng serve` to start a development server. Navigate to `http://localhost:4200/`. The app will automatically reload if you modify any of the source files.
 
 ### Code Structure
 
